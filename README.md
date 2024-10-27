@@ -1,50 +1,19 @@
-# React + TypeScript + Vite
+## Clock App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Clock App is a dynamic timer in your browser.
 
-Currently, two official plugins are available:
+## Technologies - React, TypeScript & Styled Components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## React:
 
-## Expanding the ESLint configuration
+React is a JavaScript library used for building user interfaces, especially single-page applications (SPAs). Developed by Facebook, it enables developers to create reusable UI components that update efficiently when data changes. React uses a virtual DOM to improve performance by minimizing the changes applied to the actual DOM, allowing for fast and responsive user experiences.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## TypeScript
 
-- Configure the top-level `parserOptions` property like this:
+TypeScript (TS) is a programming language developed by Microsoft that builds on JavaScript by adding static types. It allows developers to specify types for variables, functions, and other structures, which helps catch errors during development and improves code readability and maintainability.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Styled Components
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Styled Components is a library for styling React applications using tagged template literals. It allows developers to write actual CSS within their JavaScript, which helps create styled components that are scoped to the component itself. This approach enhances modularity and maintainability.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+![Captura de tela de 2024-10-26 21-12-15](https://github.com/user-attachments/assets/511aa550-c6ba-468a-90af-8932b81cd867)
