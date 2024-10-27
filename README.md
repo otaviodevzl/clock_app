@@ -16,4 +16,4 @@ TypeScript (TS) is a programming language developed by Microsoft that builds on 
 
 Styled Components is a library for styling React applications using tagged template literals. It allows developers to write actual CSS within their JavaScript, which helps create styled components that are scoped to the component itself. This approach enhances modularity and maintainability.
 
-![Captura de tela de 2024-10-26 21-23-18](https://github.com/user-attachments/assets/f18c6dee-66c7-47d1-a786-b4efb50646b3)
+![Captura de tela de 2024-10-26 21-23-18](https://github.com/user-attachments/assets/3cfab004-eddc-4672-8981-054ce6d0dc58)
